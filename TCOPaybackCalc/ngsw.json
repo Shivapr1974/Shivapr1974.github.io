@@ -1,0 +1,75 @@
+{
+  "configVersion": 1,
+  "index": "/TCOPayBackCalc/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/TCOPayBackCalc/favicon.ico",
+        "/TCOPayBackCalc/index.html",
+        "/TCOPayBackCalc/main.6f60c682a6c09dc88eb5.js",
+        "/TCOPayBackCalc/polyfills.e3633a42d1123afc5fc9.js",
+        "/TCOPayBackCalc/runtime.a66f828dca56eeb90e02.js",
+        "/TCOPayBackCalc/scripts.93d90b5f75bb83e244d8.js",
+        "/TCOPayBackCalc/styles.c7a6a7eedf6b874df759.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/TCOPayBackCalc/assets/icons/app.png",
+        "/TCOPayBackCalc/assets/icons/favicon.ico",
+        "/TCOPayBackCalc/assets/icons/icon-128x128.png",
+        "/TCOPayBackCalc/assets/icons/icon-144x144.png",
+        "/TCOPayBackCalc/assets/icons/icon-152x152.png",
+        "/TCOPayBackCalc/assets/icons/icon-384x384.png",
+        "/TCOPayBackCalc/assets/icons/icon-512x512.png",
+        "/TCOPayBackCalc/assets/icons/icon-72x72.png",
+        "/TCOPayBackCalc/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/TCOPayBackCalc/assets/icons/app.png": "54eaa818a74e8f9afaee2a5b8affc1ef6f91f5f8",
+    "/TCOPayBackCalc/assets/icons/favicon.ico": "985b5bf1f6ab7236f8eb58a6850ec482a3e3bc54",
+    "/TCOPayBackCalc/assets/icons/icon-128x128.png": "6a89dbeed8b10c984ec0b1e7d101c211e50ccbf8",
+    "/TCOPayBackCalc/assets/icons/icon-144x144.png": "b105e08de82fee82aadb979994a8b08dcffb4fcd",
+    "/TCOPayBackCalc/assets/icons/icon-152x152.png": "82d03346cfeac679c70979c0bb8c8d2c85d37f17",
+    "/TCOPayBackCalc/assets/icons/icon-384x384.png": "02ea67a42cc73947bdb7061c2cf950fd5752ab21",
+    "/TCOPayBackCalc/assets/icons/icon-512x512.png": "0875e5287bf0d7658ad93747bd771c59690605b5",
+    "/TCOPayBackCalc/assets/icons/icon-72x72.png": "a54d1576676223c81ee663c3e6efeb7b2bafef47",
+    "/TCOPayBackCalc/assets/icons/icon-96x96.png": "1097fa0889d823380345b58aa5d506fa9eccac75",
+    "/TCOPayBackCalc/favicon.ico": "d85fa4689472816d7abe3648f80676a01c53e5d4",
+    "/TCOPayBackCalc/index.html": "80169bb3d4199eda11b176f3bb4ac679f5d2eaf0",
+    "/TCOPayBackCalc/main.6f60c682a6c09dc88eb5.js": "1fff02d0c3eeebb4a667959fb1b413275542dd72",
+    "/TCOPayBackCalc/polyfills.e3633a42d1123afc5fc9.js": "d9c3b7c4732685fb03adf81adcea727e591bed0e",
+    "/TCOPayBackCalc/runtime.a66f828dca56eeb90e02.js": "6816cd4d44a1a4b6373af1cc3798338313f8100c",
+    "/TCOPayBackCalc/scripts.93d90b5f75bb83e244d8.js": "faec1ee85f330dcd07e18bce90d2f69bf27bed4c",
+    "/TCOPayBackCalc/styles.c7a6a7eedf6b874df759.css": "21b4901ae2c0f903516095adb35e5c3d823129bd"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
